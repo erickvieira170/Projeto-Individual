@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu-h{
+    background-color: rgb(37, 37, 39);
+
+}
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+#menu-h ul li a:hover{
+    background-color: rgb(24, 139, 233);
+
+}
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+body{
+    background-image: url(png/n1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+}
+#frase{
+    text-align: center;
+    color: white
+}
+#Texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic; 
+    text-align: left;
+    color: white;
+}

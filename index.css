@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-color: rgb(54, 54, 54);
+
+}
+.area {
+
+    background-image: url(png/perfeição.jpg);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 10% auto;
+
+    border-radius: 50%;
+
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu{
+    background-color: rgb(43, 43, 43);
+}
+#menu ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(43, 43, 43);
+
+}
+#menu ul li {
+    display: inline;
+
+}
+#menu ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+#menu ul li a:hover{
+    background-color: rgb(24, 139, 233);
+}
+#menu ul li:last-child a{
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+.Titulo{
+    text-align: center;
+    font-style: italic;
+}
+#Resumo{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#Objetivo{
+    text-align: center;
+    font-style: italic;
+}
+#Resumo2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#Jogos{
+    text-align: center;
+    font-style: italic;
+}
+#Lazer{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#hum{
+    color: rgb(54, 54, 54);
+}
+#hdois{
+    color: rgb(54, 54, 54);
+}
+#htres{
+    color: rgb(54, 54, 54);
+}
+#hquatro{
+    color: rgb(54, 54, 54);
+}
+#hcinco{
+    color: rgb(54, 54, 54);
+}
+#Valorant{
+    text-align: center;
+    font-style: italic;
+}
